@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1779085585916,
+      "tag": "20260518062625_fluffy_jack_flag",
+      "breakpoints": true
+    }
+  ]
+}
