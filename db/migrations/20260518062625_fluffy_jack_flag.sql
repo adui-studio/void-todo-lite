@@ -1,6 +1,1 @@
-CREATE TABLE `todos` (
-	`id` integer PRIMARY KEY AUTOINCREMENT NOT NULL,
-	`title` text NOT NULL,
-	`completed` integer DEFAULT false NOT NULL,
-	`created_at` text DEFAULT (datetime('now')) NOT NULL
-);
+CREATE TABLE todos (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,title TEXT NOT NULL,completed INTEGER NOT NULL DEFAULT 0,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
